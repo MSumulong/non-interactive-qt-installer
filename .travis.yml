@@ -2,7 +2,9 @@ language: shell
 
 addons:
   apt:
-    packages: xvfb
+    packages:
+     - xvfb
+     - libxkbcommon
 
 env:
   global:
