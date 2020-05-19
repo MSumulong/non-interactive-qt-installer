@@ -4,7 +4,7 @@ addons:
   apt:
     packages:
      - xvfb
-     - libxkbcommon
+     - libxkbcommon-x11-0
 
 env:
   global:
